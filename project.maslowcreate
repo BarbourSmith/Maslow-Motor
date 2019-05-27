@@ -35,7 +35,7 @@
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 37
+                            "ioValue": 18.5
                         }
                     ]
                 },
@@ -53,6 +53,19 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 220,
+                    "y": 128,
+                    "uniqueID": 214402,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 75
+                        }
+                    ]
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 991,
@@ -66,6 +79,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 305113,
                     "ap2ID": 755749
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 235049,
+                    "ap2ID": 214402
                 }
             ],
             "fileTypeVersion": 1
