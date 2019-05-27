@@ -103,7 +103,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 18.5
                         }
                     ]
                 },
@@ -120,6 +120,10 @@
                         },
                         {
                             "name": "3D shape 714530",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 603062",
                             "ioValue": 10
                         }
                     ]
@@ -157,7 +161,18 @@
                     "ap1ID": 755749,
                     "ap2ID": 676208
                 },
-                null,
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 746012,
+                    "ap2ID": 745792
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 714530",
+                    "ap1ID": 745792,
+                    "ap2ID": 676208
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
