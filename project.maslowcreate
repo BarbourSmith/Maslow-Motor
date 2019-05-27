@@ -66,6 +66,19 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 101,
+                    "y": 214,
+                    "uniqueID": 213037,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 4
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 318,
@@ -182,5 +195,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": 2
+    "circleSegmentSize": 6
 }
