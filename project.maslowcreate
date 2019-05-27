@@ -89,13 +89,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 465,
-                    "y": 117,
+                    "x": 461,
+                    "y": 113,
                     "uniqueID": 745792,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 29.1
                         },
                         {
                             "name": "yDist",
@@ -182,5 +182,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": 6
+    "circleSegmentSize": 2
 }
