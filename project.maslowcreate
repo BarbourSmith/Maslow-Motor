@@ -12,17 +12,17 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 130,
-                    "y": 104,
+                    "x": 106,
+                    "y": 56,
                     "uniqueID": 305113,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 10
+                            "ioValue": 58.2
                         },
                         {
                             "name": "y length",
-                            "ioValue": 10
+                            "ioValue": 40.1
                         }
                     ]
                 },
