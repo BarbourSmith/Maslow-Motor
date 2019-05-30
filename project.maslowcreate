@@ -115,8 +115,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 374,
-                    "y": 201,
+                    "x": 375,
+                    "y": 209,
                     "uniqueID": 974393,
                     "ioValues": [
                         {
@@ -157,8 +157,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 747,
-                    "y": 75,
+                    "x": 670,
+                    "y": 85,
                     "uniqueID": 676208,
                     "ioValues": [
                         {
@@ -176,6 +176,27 @@
                         {
                             "name": "3D shape 569273",
                             "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 887,
+                    "y": 114,
+                    "uniqueID": 491411,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 8.95
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -244,8 +265,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 676208,
+                    "ap2ID": 491411
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 676208
+                    "ap1ID": 491411
                 }
             ],
             "fileTypeVersion": 1
