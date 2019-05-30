@@ -113,6 +113,19 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 289,
+                    "y": 287,
+                    "uniqueID": 719465,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 374,
@@ -130,19 +143,6 @@
                         {
                             "name": "zDist",
                             "ioValue": -17.5
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 345,
-                    "y": 304,
-                    "uniqueID": 719465,
-                    "ioValues": [
-                        {
-                            "name": "radius",
-                            "ioValue": 10
                         }
                     ]
                 },
@@ -170,8 +170,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 430,
-                    "y": 287,
+                    "x": 544,
+                    "y": 217,
                     "uniqueID": 713520,
                     "ioValues": [
                         {
@@ -184,7 +184,7 @@
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 747,
-                    "y": 70,
+                    "y": 75,
                     "uniqueID": 676208,
                     "ioValues": [
                         {
@@ -255,6 +255,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 746012,
                     "ap2ID": 745792
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 719465,
+                    "ap2ID": 713520
                 },
                 {
                     "ap1Name": "geometry",
