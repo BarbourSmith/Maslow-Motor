@@ -134,6 +134,19 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 345,
+                    "y": 304,
+                    "uniqueID": 719465,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 461,
@@ -151,6 +164,19 @@
                         {
                             "name": "zDist",
                             "ioValue": 18.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 430,
+                    "y": 287,
+                    "uniqueID": 713520,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
                         }
                     ]
                 },
