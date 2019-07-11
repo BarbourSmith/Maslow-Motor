@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 777,
-            "y": 45,
+            "x": 703,
+            "y": 36,
             "uniqueID": 277402,
             "ioValues": [],
             "topLevel": false,
@@ -42,7 +42,7 @@
                     "y": 287,
                     "uniqueID": 618483,
                     "ioValues": [],
-                    "readmeText": "Hole of 2.25mm is the recommended clearance bolt hole for a M4 bolt, not the measured hole id for the thread which will be 3.3mmÃÂ "
+                    "readmeText": "Hole of 2.25mm is the recommended clearance bolt hole for a M4 bolt, not the measured hole id for the thread which will be 3.3mmÃÂÃÂ "
                 },
                 {
                     "atomType": "Difference",
@@ -264,8 +264,8 @@
         {
             "atomType": "Molecule",
             "name": "Bump Around Shaft",
-            "x": 802,
-            "y": 215,
+            "x": 687,
+            "y": 240,
             "uniqueID": 994724,
             "ioValues": [],
             "topLevel": false,
@@ -651,10 +651,10 @@
                     "atomType": "Readme",
                     "name": "README",
                     "x": 562,
-                    "y": 308,
+                    "y": 290.50666666666666,
                     "uniqueID": 719626,
                     "ioValues": [],
-                    "readmeText": "This is a model of the Etonm ET-WGM58AE motor used by the Maslow CNC. A schematic for this motor can be found inÃÂ https://github.com/MaslowCNC/Electronics/tree/master/Documentation/Data%20SheetsÃÂ "
+                    "readmeText": "This is a model of the Etonm ET-WGM58AE motor used by the Maslow CNC. A schematic for this motor can be found inÃÂÃÂ https://github.com/MaslowCNC/Electronics/tree/master/Documentation/Data%20SheetsÃÂÃÂ "
                 },
                 {
                     "atomType": "Translate",
@@ -680,24 +680,24 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
-                    "x": 777,
-                    "y": 45,
+                    "x": 703,
+                    "y": 36,
                     "uniqueID": 277402,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Bump Around Shaft",
-                    "x": 802,
-                    "y": 215,
+                    "x": 687,
+                    "y": 240,
                     "uniqueID": 994724,
                     "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 912,
-                    "y": 106,
+                    "x": 833,
+                    "y": 117,
                     "uniqueID": 676208,
                     "ioValues": [
                         {
