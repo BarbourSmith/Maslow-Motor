@@ -5,7 +5,7 @@
 ## Maslow Motor
 
 
-This is a model of the Etonm ET-WGM58 
+This is a model of the Etonm ET-WGM58AE motor used by the Maslow CNC. A schematic for this motor can be found at  
 
 
 ## Mounting Holes
