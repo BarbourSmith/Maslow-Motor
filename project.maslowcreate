@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 51,
-            "y": 283,
+            "x": 49,
+            "y": 282,
             "uniqueID": 277402,
             "ioValues": [],
             "topLevel": false,
@@ -77,7 +77,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 14
                         },
                         {
                             "name": "zDist",
@@ -98,7 +98,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -14
                         },
                         {
                             "name": "zDist",
@@ -300,8 +300,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
-                    "x": 51,
-                    "y": 283,
+                    "x": 49,
+                    "y": 282,
                     "uniqueID": 277402,
                     "ioValues": []
                 },
@@ -424,6 +424,10 @@
                         {
                             "name": "3D shape 246783",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 835084",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -486,6 +490,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 214402,
                     "ap2ID": 746012
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 246783",
+                    "ap1ID": 277402,
+                    "ap2ID": 676208
                 },
                 {
                     "ap1Name": "geometry",
