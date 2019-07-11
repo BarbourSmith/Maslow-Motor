@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 435,
-            "y": 251,
+            "x": 567,
+            "y": 47,
             "uniqueID": 277402,
             "ioValues": [],
             "topLevel": false,
@@ -263,6 +263,26 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 530,
+            "y": 233,
+            "uniqueID": 994724,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Maslow Motor",
             "x": 0,
             "y": 0,
@@ -439,9 +459,17 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
-                    "x": 435,
-                    "y": 251,
+                    "x": 567,
+                    "y": 47,
                     "uniqueID": 277402,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 530,
+                    "y": 233,
+                    "uniqueID": 994724,
                     "ioValues": []
                 },
                 {
