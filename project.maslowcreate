@@ -42,7 +42,7 @@
                     "y": 287,
                     "uniqueID": 618483,
                     "ioValues": [],
-                    "readmeText": "Hole of 2.25mm is the recommended clearance bolt hole for a M4 bolt, not the measured hole id for the thread which will be 3.3mm "
+                    "readmeText": "Hole of 2.25mm is the recommended clearance bolt hole for a M4 bolt, not the measured hole id for the thread which will be 3.3mmÂ "
                 },
                 {
                     "atomType": "Difference",
@@ -654,7 +654,7 @@
                     "y": 308,
                     "uniqueID": 719626,
                     "ioValues": [],
-                    "readmeText": "This is a model of the Etonm ET-WGM58AE motor used by the Maslow CNC. A schematic for this motor can be found in https://github.com/MaslowCNC/Electronics/tree/master/Documentation/Data%20Sheets "
+                    "readmeText": "This is a model of the Etonm ET-WGM58AE motor used by the Maslow CNC. A schematic for this motor can be found inÂ https://github.com/MaslowCNC/Electronics/tree/master/Documentation/Data%20SheetsÂ "
                 },
                 {
                     "atomType": "Translate",
