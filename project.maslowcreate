@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 47,
-            "y": 280,
+            "x": 437,
+            "y": 253,
             "uniqueID": 277402,
             "ioValues": [],
             "topLevel": false,
@@ -298,14 +298,6 @@
                     ]
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Mounting Holes",
-                    "x": 47,
-                    "y": 280,
-                    "uniqueID": 277402,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Extrude",
                     "name": "Extrude",
                     "x": 204,
@@ -369,7 +361,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -8.95
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -401,6 +393,14 @@
                             "ioValue": 18.5
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Mounting Holes",
+                    "x": 437,
+                    "y": 253,
+                    "uniqueID": 277402,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Assembly",
@@ -492,12 +492,6 @@
                     "ap2ID": 746012
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 246783",
-                    "ap1ID": 277402,
-                    "ap2ID": 676208
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 605960,
@@ -525,6 +519,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 714530",
                     "ap1ID": 745792,
+                    "ap2ID": 676208
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 246783",
+                    "ap1ID": 277402,
                     "ap2ID": 676208
                 },
                 {
