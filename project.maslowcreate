@@ -45,6 +45,14 @@
                     "readmeText": "Hole of 2.25mm is the recommended clearance bolt hole for a M4 bolt, not the measured hole id for the thread which will be 3.3mm "
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 297,
+                    "y": 203,
+                    "uniqueID": 601534,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 689,
@@ -181,27 +189,39 @@
             "allConnectors": [
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
+                    "ap2Name": "geometry1",
                     "ap1ID": 493757,
-                    "ap2ID": 541313
+                    "ap2ID": 601534
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 433090,
+                    "ap2ID": 601534
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 493757,
-                    "ap2ID": 146909
+                    "ap1ID": 601534,
+                    "ap2ID": 114204
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 493757,
+                    "ap1ID": 601534,
                     "ap2ID": 979184
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 493757,
-                    "ap2ID": 114204
+                    "ap1ID": 601534,
+                    "ap2ID": 146909
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 601534,
+                    "ap2ID": 541313
                 },
                 {
                     "ap1Name": "geometry",
