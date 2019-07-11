@@ -669,6 +669,15 @@
                     ]
                 },
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 647,
+                    "y": 287,
+                    "uniqueID": 719626,
+                    "ioValues": [],
+                    "readmeText": "Readme text here"
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
                     "x": 777,
