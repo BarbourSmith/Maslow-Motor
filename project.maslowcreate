@@ -627,7 +627,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": -3
+                            "ioValue": -4
                         },
                         {
                             "name": "yDist",
@@ -640,10 +640,26 @@
                     ]
                 },
                 {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 506,
+                    "y": 196,
+                    "uniqueID": 666518,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Mounting Holes",
+                    "x": 567,
+                    "y": 47,
+                    "uniqueID": 277402,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 475,
-                    "y": 181,
+                    "x": 650,
+                    "y": 157,
                     "uniqueID": 974393,
                     "ioValues": [
                         {
@@ -659,22 +675,6 @@
                             "ioValue": -17.5
                         }
                     ]
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Mounting Holes",
-                    "x": 567,
-                    "y": 47,
-                    "uniqueID": 277402,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 569,
-                    "y": 246,
-                    "uniqueID": 666518,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
@@ -776,12 +776,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 605960,
-                    "ap2ID": 974393
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap1ID": 605960,
                     "ap2ID": 666518
@@ -806,14 +800,20 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 517504",
-                    "ap1ID": 974393,
-                    "ap2ID": 676208
+                    "ap2Name": "geometry",
+                    "ap1ID": 666518,
+                    "ap2ID": 974393
                 },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 246783",
                     "ap1ID": 277402,
+                    "ap2ID": 676208
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 517504",
+                    "ap1ID": 974393,
                     "ap2ID": 676208
                 },
                 {
