@@ -31,9 +31,18 @@
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 2.1
+                            "ioValue": 2.25
                         }
                     ]
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 164,
+                    "y": 287,
+                    "uniqueID": 618483,
+                    "ioValues": [],
+                    "readmeText": "Hole of 2.25mm is the recommended clearance bolt hole for a M4 bolt, not the measured hole id for the thread which will be 3.3mm "
                 },
                 {
                     "atomType": "Translate",
