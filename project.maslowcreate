@@ -231,13 +231,13 @@
                 {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 80,
-                    "y": 41,
+                    "x": 86,
+                    "y": 49,
                     "uniqueID": 305113,
                     "ioValues": [
                         {
                             "name": "x length",
-                            "ioValue": 58.2
+                            "ioValue": 58.1
                         },
                         {
                             "name": "y length",
@@ -432,27 +432,6 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 912,
-                    "y": 106,
-                    "uniqueID": 491411,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 8.95
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -529,14 +508,8 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 676208,
-                    "ap2ID": 491411
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 491411
+                    "ap1ID": 676208
                 }
             ],
             "fileTypeVersion": 1
