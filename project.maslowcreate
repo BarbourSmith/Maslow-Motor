@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 437,
-            "y": 253,
+            "x": 435,
+            "y": 251,
             "uniqueID": 277402,
             "ioValues": [],
             "topLevel": false,
@@ -109,8 +109,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 478,
-                    "y": 147,
+                    "x": 898,
+                    "y": 141,
                     "uniqueID": 744271,
                     "ioValues": [
                         {
@@ -138,8 +138,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 670,
-                    "y": 144,
+                    "x": 1033,
+                    "y": 148,
                     "uniqueID": 861189,
                     "ioValues": [
                         {
@@ -382,7 +382,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 29.1
+                            "ioValue": 37.9
                         },
                         {
                             "name": "yDist",
@@ -397,8 +397,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
-                    "x": 437,
-                    "y": 253,
+                    "x": 435,
+                    "y": 251,
                     "uniqueID": 277402,
                     "ioValues": []
                 },
