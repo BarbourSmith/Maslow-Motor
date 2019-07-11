@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 567,
-            "y": 47,
+            "x": 777,
+            "y": 45,
             "uniqueID": 277402,
             "ioValues": [],
             "topLevel": false,
@@ -648,14 +648,6 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Molecule",
-                    "name": "Mounting Holes",
-                    "x": 567,
-                    "y": 47,
-                    "uniqueID": 277402,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 650,
@@ -675,6 +667,14 @@
                             "ioValue": -17.5
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Mounting Holes",
+                    "x": 777,
+                    "y": 45,
+                    "uniqueID": 277402,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
@@ -805,15 +805,15 @@
                     "ap2ID": 974393
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 246783",
-                    "ap1ID": 277402,
-                    "ap2ID": 676208
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 517504",
                     "ap1ID": 974393,
+                    "ap2ID": 676208
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 246783",
+                    "ap1ID": 277402,
                     "ap2ID": 676208
                 },
                 {
