@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 56,
-            "y": 280,
+            "x": 51,
+            "y": 283,
             "uniqueID": 277402,
             "ioValues": [],
             "topLevel": false,
@@ -35,7 +35,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": 14
                         },
                         {
                             "name": "zDist",
@@ -56,7 +56,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -14
                         },
                         {
                             "name": "zDist",
@@ -210,6 +210,11 @@
                     "ap2Name": "geometry",
                     "ap1ID": 744271,
                     "ap2ID": 861189
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 861189
                 }
             ],
             "fileTypeVersion": 1
@@ -295,8 +300,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
-                    "x": 56,
-                    "y": 280,
+                    "x": 51,
+                    "y": 283,
                     "uniqueID": 277402,
                     "ioValues": []
                 },
