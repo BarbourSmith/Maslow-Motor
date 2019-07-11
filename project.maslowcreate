@@ -263,7 +263,7 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
+            "name": "Bump Around Shaft",
             "x": 530,
             "y": 233,
             "uniqueID": 994724,
@@ -271,14 +271,49 @@
             "topLevel": false,
             "allAtoms": [
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 136,
+                    "y": 119,
+                    "uniqueID": 649016,
+                    "ioValues": [],
+                    "readmeText": "The radius of this is not displayed on the diagram, and is estimated. It should be checked."
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 196,
-                    "y": 184,
+                    "x": 173,
+                    "y": 183,
                     "uniqueID": 871875,
                     "ioValues": [
                         {
                             "name": "radius",
+                            "ioValue": 12
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 345,
+                    "y": 111,
+                    "uniqueID": 594397,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 347,
+                    "y": 225,
+                    "uniqueID": 837350,
+                    "ioValues": [
+                        {
+                            "name": "height",
                             "ioValue": 10
                         }
                     ]
@@ -291,7 +326,14 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 871875,
+                    "ap2ID": 594397
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -479,7 +521,7 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
+                    "name": "Bump Around Shaft",
                     "x": 530,
                     "y": 233,
                     "uniqueID": 994724,
