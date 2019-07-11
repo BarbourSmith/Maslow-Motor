@@ -168,7 +168,7 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 799,
+                    "x": 760,
                     "y": 68,
                     "uniqueID": 144655,
                     "ioValues": [
@@ -181,8 +181,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 786,
-                    "y": 241,
+                    "x": 743,
+                    "y": 236,
                     "uniqueID": 861189,
                     "ioValues": [
                         {
@@ -194,8 +194,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 933,
-                    "y": 90,
+                    "x": 928,
+                    "y": 35,
                     "uniqueID": 712879,
                     "ioValues": [
                         {
@@ -208,15 +208,36 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 0
+                            "ioValue": 28
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 952,
+                    "y": 149,
+                    "uniqueID": 398839,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 361132",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 602830",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 324064",
+                            "ioValue": 10
                         }
                     ]
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
-                    "y": 164,
+                    "x": 1087,
+                    "y": 240,
                     "ioValues": []
                 }
             ],
@@ -295,8 +316,26 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 144655,
+                    "ap2ID": 712879
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 361132",
+                    "ap1ID": 861189,
+                    "ap2ID": 398839
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 602830",
+                    "ap1ID": 712879,
+                    "ap2ID": 398839
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 861189
+                    "ap1ID": 398839
                 }
             ],
             "fileTypeVersion": 1
