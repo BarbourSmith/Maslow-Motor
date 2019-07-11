@@ -621,13 +621,13 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 406,
-                    "y": 274,
+                    "x": 404,
+                    "y": 271,
                     "uniqueID": 915522,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": -3
                         },
                         {
                             "name": "yDist",
