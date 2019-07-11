@@ -2,6 +2,39 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Mounting Holes",
+            "x": 58,
+            "y": 279,
+            "uniqueID": 277402,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 112,
+                    "y": 71,
+                    "uniqueID": 493757,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Maslow Motor",
             "x": 0,
             "y": 0,
@@ -77,6 +110,14 @@
                             "ioValue": 75
                         }
                     ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Mounting Holes",
+                    "x": 58,
+                    "y": 279,
+                    "uniqueID": 277402,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Extrude",
