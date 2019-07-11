@@ -264,8 +264,8 @@
         {
             "atomType": "Molecule",
             "name": "Bump Around Shaft",
-            "x": 530,
-            "y": 233,
+            "x": 526,
+            "y": 240,
             "uniqueID": 994724,
             "ioValues": [],
             "topLevel": false,
@@ -301,7 +301,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 10
+                            "ioValue": 2
                         }
                     ]
                 },
@@ -315,6 +315,27 @@
                         {
                             "name": "height",
                             "ioValue": 4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 490,
+                    "y": 105,
+                    "uniqueID": 135125,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 27
                         }
                     ]
                 },
@@ -336,6 +357,27 @@
                         {
                             "name": "zDist",
                             "ioValue": -4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 647,
+                    "y": 143,
+                    "uniqueID": 914886,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 716176",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 782491",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 306654",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -363,8 +405,31 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
+                    "ap1ID": 594397,
+                    "ap2ID": 135125
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
                     "ap1ID": 837350,
                     "ap2ID": 297144
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 782491",
+                    "ap1ID": 135125,
+                    "ap2ID": 914886
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 716176",
+                    "ap1ID": 297144,
+                    "ap2ID": 914886
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 914886
                 }
             ],
             "fileTypeVersion": 1
@@ -555,8 +620,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bump Around Shaft",
-                    "x": 530,
-                    "y": 233,
+                    "x": 526,
+                    "y": 240,
                     "uniqueID": 994724,
                     "ioValues": []
                 },
