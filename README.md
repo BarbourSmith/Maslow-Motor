@@ -5,7 +5,7 @@
 ## Maslow Motor
 
 
-Readme text here
+This is a model of the Etonm ET-WGM58 
 
 
 ## Mounting Holes

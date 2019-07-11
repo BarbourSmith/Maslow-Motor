@@ -648,6 +648,15 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 562,
+                    "y": 308,
+                    "uniqueID": 719626,
+                    "ioValues": [],
+                    "readmeText": "This is a model of the Etonm ET-WGM58 "
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 650,
@@ -667,15 +676,6 @@
                             "ioValue": -17.5
                         }
                     ]
-                },
-                {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 647,
-                    "y": 287,
-                    "uniqueID": 719626,
-                    "ioValues": [],
-                    "readmeText": "Readme text here"
                 },
                 {
                     "atomType": "Molecule",
