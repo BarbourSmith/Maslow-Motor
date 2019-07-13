@@ -579,10 +579,23 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 200,
+                    "y": 119,
+                    "uniqueID": 214402,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 75
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rectangle",
                     "name": "Rectangle",
-                    "x": 63,
-                    "y": 219,
+                    "x": 43,
+                    "y": 264,
                     "uniqueID": 137692,
                     "ioValues": [
                         {
@@ -598,21 +611,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 200,
-                    "y": 119,
-                    "uniqueID": 214402,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 75
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 193,
-                    "y": 219,
+                    "x": 197,
+                    "y": 256,
                     "uniqueID": 713470,
                     "ioValues": [
                         {
@@ -679,8 +679,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 404,
-                    "y": 219,
+                    "x": 386,
+                    "y": 266,
                     "uniqueID": 915522,
                     "ioValues": [
                         {
@@ -729,8 +729,8 @@
                 {
                     "atomType": "Readme",
                     "name": "README",
-                    "x": 554,
-                    "y": 219,
+                    "x": 571,
+                    "y": 240,
                     "uniqueID": 719626,
                     "ioValues": [],
                     "readmeText": "This is a model of the Etonm ET-WGM58AE motor used by the Maslow CNC. A schematic for this motor can be found in https://github.com/MaslowCNC/Electronics/tree/master/Documentation/Data%20Sheets "
@@ -823,8 +823,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
-                    "y": 164,
+                    "x": 1287,
+                    "y": 122,
                     "ioValues": []
                 }
             ],
@@ -856,14 +856,14 @@
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 137692,
-                    "ap2ID": 713470
+                    "ap1ID": 214402,
+                    "ap2ID": 746012
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 214402,
-                    "ap2ID": 746012
+                    "ap1ID": 137692,
+                    "ap2ID": 713470
                 },
                 {
                     "ap1Name": "geometry",
