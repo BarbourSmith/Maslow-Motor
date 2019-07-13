@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 692,
-            "y": 47,
+            "x": 733,
+            "y": 39,
             "uniqueID": 277402,
             "ioValues": [],
             "topLevel": false,
@@ -343,8 +343,8 @@
         {
             "atomType": "Molecule",
             "name": "Bump Around Shaft",
-            "x": 687,
-            "y": 219,
+            "x": 680,
+            "y": 280,
             "uniqueID": 994724,
             "ioValues": [],
             "topLevel": false,
@@ -759,16 +759,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
-                    "x": 692,
-                    "y": 47,
+                    "x": 733,
+                    "y": 39,
                     "uniqueID": 277402,
                     "ioValues": []
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Bump Around Shaft",
-                    "x": 687,
-                    "y": 219,
+                    "x": 680,
+                    "y": 280,
                     "uniqueID": 994724,
                     "ioValues": []
                 },
