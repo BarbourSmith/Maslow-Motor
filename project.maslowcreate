@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 728,
-            "y": 44,
+            "x": 726,
+            "y": 36,
             "uniqueID": 277402,
             "ioValues": [],
             "topLevel": false,
@@ -367,7 +367,7 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 21
                         }
                     ]
                 },
@@ -759,8 +759,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
-                    "x": 728,
-                    "y": 44,
+                    "x": 726,
+                    "y": 36,
                     "uniqueID": 277402,
                     "ioValues": []
                 },
