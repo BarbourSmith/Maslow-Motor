@@ -18,20 +18,20 @@
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 8
                         }
                     ]
                 },
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 137,
-                    "y": 225,
+                    "x": 128,
+                    "y": 220,
                     "uniqueID": 433090,
                     "ioValues": [
                         {
                             "name": "diameter",
-                            "ioValue": 10
+                            "ioValue": 4
                         }
                     ]
                 },
