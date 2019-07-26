@@ -736,10 +736,19 @@
                     "readmeText": "This is a model of the Etonm ET-WGM58AE motor used by the Maslow CNC. A schematic for this motor can be found in https://github.com/MaslowCNC/Electronics/tree/master/Documentation/Data%20Sheets "
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 623,
+                    "y": 124,
+                    "uniqueID": 456330,
+                    "ioValues": [],
+                    "selectedColorIndex": "4"
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 650,
-                    "y": 157,
+                    "x": 683,
+                    "y": 194,
                     "uniqueID": 974393,
                     "ioValues": [
                         {
@@ -780,10 +789,6 @@
                     "uniqueID": 676208,
                     "ioValues": [
                         {
-                            "name": "3D shape 714530",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 517504",
                             "ioValue": 10
                         },
@@ -801,6 +806,10 @@
                         },
                         {
                             "name": "3D shape 773942",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 624072",
                             "ioValue": 10
                         }
                     ]
@@ -897,15 +906,21 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 714530",
+                    "ap2Name": "geometry",
                     "ap1ID": 745792,
-                    "ap2ID": 676208
+                    "ap2ID": 456330
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 666518,
                     "ap2ID": 974393
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 773942",
+                    "ap1ID": 456330,
+                    "ap2ID": 676208
                 },
                 {
                     "ap1Name": "geometry",
