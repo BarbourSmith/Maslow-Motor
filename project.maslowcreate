@@ -236,8 +236,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
-                    "y": 164,
+                    "x": 974,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -463,8 +463,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
-                    "y": 164,
+                    "x": 974,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -727,6 +727,15 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 603,
+                    "y": 132,
+                    "uniqueID": 456330,
+                    "ioValues": [],
+                    "selectedColorIndex": "4"
+                },
+                {
                     "atomType": "Readme",
                     "name": "README",
                     "x": 570,
@@ -734,15 +743,6 @@
                     "uniqueID": 719626,
                     "ioValues": [],
                     "readmeText": "This is a model of the Etonm ET-WGM58AE motor used by the Maslow CNC. A schematic for this motor can be found in https://github.com/MaslowCNC/Electronics/tree/master/Documentation/Data%20Sheets "
-                },
-                {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 623,
-                    "y": 124,
-                    "uniqueID": 456330,
-                    "ioValues": [],
-                    "selectedColorIndex": "4"
                 },
                 {
                     "atomType": "Translate",
@@ -817,8 +817,8 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 966,
-                    "y": 72,
+                    "x": 916,
+                    "y": 80,
                     "uniqueID": 179344,
                     "ioValues": [],
                     "BOMitem": {
@@ -832,8 +832,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
-                    "y": 164,
+                    "x": 974,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
