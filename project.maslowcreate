@@ -144,6 +144,10 @@
                     "uniqueID": 744271,
                     "ioValues": [
                         {
+                            "name": "3D shape 217243",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 501271",
                             "ioValue": 10
                         },
@@ -163,7 +167,8 @@
                             "name": "3D shape 217243",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Extrude",
@@ -220,6 +225,10 @@
                     "uniqueID": 398839,
                     "ioValues": [
                         {
+                            "name": "3D shape 324064",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 361132",
                             "ioValue": 10
                         },
@@ -231,13 +240,14 @@
                             "name": "3D shape 324064",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -447,6 +457,10 @@
                     "uniqueID": 914886,
                     "ioValues": [
                         {
+                            "name": "3D shape 306654",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 716176",
                             "ioValue": 10
                         },
@@ -458,13 +472,14 @@
                             "name": "3D shape 306654",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
-                    "y": 164,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -721,8 +736,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 506,
-                    "y": 196,
+                    "x": 497,
+                    "y": 198,
                     "uniqueID": 666518,
                     "ioValues": []
                 },
@@ -733,7 +748,7 @@
                     "y": 132,
                     "uniqueID": 456330,
                     "ioValues": [],
-                    "selectedColorIndex": "4"
+                    "selectedColorIndex": "10"
                 },
                 {
                     "atomType": "Readme",
@@ -789,6 +804,10 @@
                     "uniqueID": 676208,
                     "ioValues": [
                         {
+                            "name": "3D shape 624072",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 517504",
                             "ioValue": 10
                         },
@@ -812,7 +831,8 @@
                             "name": "3D shape 624072",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -832,8 +852,8 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1247.0062222222223,
-                    "y": 156.63466666666665,
+                    "x": 1316,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
