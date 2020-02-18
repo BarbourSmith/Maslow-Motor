@@ -2,7 +2,7 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|ET-WGM58AE|1|$11.00|http://www.etonm.com/|
-|Total: |1|$11.00| |
+|ET-WGM58AE|2|$11.00|http://www.etonm.com/|
+|Total: |2|$11.00| |
 
  3xCOG MSRP: $33.00
