@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 726,
-            "y": 36,
+            "x": 722,
+            "y": 35,
             "uniqueID": 277402,
             "ioValues": [],
             "topLevel": false,
@@ -76,7 +76,7 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 485,
+                    "x": 479,
                     "y": 134,
                     "uniqueID": 146909,
                     "ioValues": [
@@ -732,8 +732,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
-                    "x": 726,
-                    "y": 36,
+                    "x": 722,
+                    "y": 35,
                     "uniqueID": 277402,
                     "ioValues": []
                 },
