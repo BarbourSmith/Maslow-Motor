@@ -612,7 +612,7 @@
                     "y": 242,
                     "uniqueID": 270796,
                     "ioValues": [],
-                    "readmeText": "The motor shaft is "
+                    "readmeText": "The motor shaft is 8mm and has one flat side, but is shown here with a 9mm round shaft to create proper cutaway holes."
                 },
                 {
                     "atomType": "Rotate",

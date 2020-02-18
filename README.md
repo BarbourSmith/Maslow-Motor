@@ -7,7 +7,7 @@
 ## Maslow Motor
 
 
-The motor shaft is 
+The motor shaft is 8mm and has one flat side, but is shown here with a 9mm round shaft to create proper cutaway holes.
 
 
 This is a model of the Etonm ET-WGM58AE motor used by the Maslow CNC. A schematic for this motor can be found in https://github.com/MaslowCNC/Electronics/tree/master/Documentation/Data%20Sheets 
