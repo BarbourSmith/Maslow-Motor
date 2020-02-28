@@ -725,6 +725,20 @@
                     "selectedColorIndex": "10"
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Voxels",
+                    "x": 0.8894582723279649,
+                    "y": 0.3448275862068966,
+                    "uniqueID": 636598,
+                    "projectID": "242066537",
+                    "ioValues": [
+                        {
+                            "name": "Geometry",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.8308931185944364,
