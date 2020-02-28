@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Bump Around Shaft",
-            "x": 0.6346998535871157,
-            "y": 0.4367816091954023,
+            "x": 0.5241581259150805,
+            "y": 0.3984674329501916,
             "uniqueID": 994724,
             "ioValues": [],
             "topLevel": false,
@@ -180,24 +180,17 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Holes",
-            "x": 0.7679355783308931,
-            "y": 0.24521072796934865,
+            "x": 0.7657393850658858,
+            "y": 0.2720306513409962,
             "uniqueID": 277402,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 116,
-                    "y": 76,
+                    "x": 0.1881405563689605,
+                    "y": 0.2298850574712644,
                     "uniqueID": 493757,
                     "ioValues": [
                         {
@@ -207,40 +200,18 @@
                     ]
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 128,
-                    "y": 220,
-                    "uniqueID": 433090,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 4
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Readme",
-                    "name": "README",
-                    "x": 164,
-                    "y": 287,
-                    "uniqueID": 618483,
-                    "ioValues": [],
-                    "readmeText": "Hole of 2.25mm is the recommended clearance bolt hole for a M4 bolt, not the measured hole id for the thread which will be 3.3mm "
-                },
-                {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 297,
-                    "y": 203,
+                    "x": 0.30453879941434847,
+                    "y": 0.3639846743295019,
                     "uniqueID": 601534,
                     "ioValues": []
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 485,
-                    "y": 52,
+                    "x": 0.527818448023426,
+                    "y": 0.11877394636015325,
                     "uniqueID": 541313,
                     "ioValues": [
                         {
@@ -260,50 +231,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 479,
-                    "y": 134,
-                    "uniqueID": 146909,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": -11.5
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": -14
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 474,
-                    "y": 193,
-                    "uniqueID": 979184,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 28.85
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 14
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 454,
-                    "y": 258,
+                    "x": 0.49267935578330896,
+                    "y": 0.32567049808429116,
                     "uniqueID": 114204,
                     "ioValues": [
                         {
@@ -321,10 +250,87 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.4275256222547584,
+                    "y": 0.48659003831417624,
+                    "uniqueID": 979184,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 28.85
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 14
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.26720351390922403,
+                    "y": 0.7126436781609194,
+                    "uniqueID": 433090,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 4
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Readme",
+                    "name": "README",
+                    "x": 0.7445095168374818,
+                    "y": 0.2567049808429119,
+                    "uniqueID": 618483,
+                    "ioValues": [],
+                    "readmeText": "Hole of 2.25mm is the recommended clearance bolt hole for a M4 bolt, not the measured hole id for the thread which will be 3.3mm "
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.431185944363104,
+                    "y": 0.7624521072796935,
+                    "uniqueID": 146909,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": -11.5
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -14
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.7393850658857979,
+                    "y": 0.5172413793103449,
+                    "uniqueID": 144655,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 660,
-                    "y": 147,
+                    "x": 0.5951683748169839,
+                    "y": 0.7088122605363985,
                     "uniqueID": 744271,
                     "ioValues": [
                         {
@@ -347,36 +353,10 @@
                     "removeCutawayGeometry": true
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 760,
-                    "y": 68,
-                    "uniqueID": 144655,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 743,
-                    "y": 236,
-                    "uniqueID": 861189,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 928,
-                    "y": 35,
+                    "x": 0.8338213762811127,
+                    "y": 0.5478927203065134,
                     "uniqueID": 712879,
                     "ioValues": [
                         {
@@ -394,10 +374,30 @@
                     ]
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.7459736456808199,
+                    "y": 0.7586206896551725,
+                    "uniqueID": 861189,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 952,
-                    "y": 149,
+                    "x": 0.8997071742313323,
+                    "y": 0.685823754789272,
                     "uniqueID": 398839,
                     "ioValues": [
                         {
@@ -418,13 +418,6 @@
                     "ap2Name": "geometry1",
                     "ap2Primary": false,
                     "ap1ID": 493757,
-                    "ap2ID": 601534
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap2Primary": false,
-                    "ap1ID": 433090,
                     "ap2ID": 601534
                 },
                 {
@@ -464,9 +457,9 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 853073",
+                    "ap2Name": "3D shape 723062",
                     "ap2Primary": false,
-                    "ap1ID": 146909,
+                    "ap1ID": 114204,
                     "ap2ID": 744271
                 },
                 {
@@ -478,10 +471,24 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 723062",
+                    "ap2Name": "geometry2",
                     "ap2Primary": false,
-                    "ap1ID": 114204,
+                    "ap1ID": 433090,
+                    "ap2ID": 601534
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 853073",
+                    "ap2Primary": false,
+                    "ap1ID": 146909,
                     "ap2ID": 744271
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 144655,
+                    "ap2ID": 712879
                 },
                 {
                     "ap1Name": "geometry",
@@ -499,23 +506,16 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 144655,
-                    "ap2ID": 712879
+                    "ap2Name": "3D shape 602830",
+                    "ap2Primary": false,
+                    "ap1ID": 712879,
+                    "ap2ID": 398839
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 361132",
                     "ap2Primary": false,
                     "ap1ID": 861189,
-                    "ap2ID": 398839
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 602830",
-                    "ap2Primary": false,
-                    "ap1ID": 712879,
                     "ap2ID": 398839
                 },
                 {
@@ -628,6 +628,14 @@
                     ]
                 },
                 {
+                    "atomType": "Molecule",
+                    "name": "Bump Around Shaft",
+                    "x": 0.5241581259150805,
+                    "y": 0.3984674329501916,
+                    "uniqueID": 994724,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 0.4260614934114202,
@@ -651,8 +659,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.6742313323572474,
-                    "y": 0.21839080459770116,
+                    "x": 0.643484626647145,
+                    "y": 0.19157088122605365,
                     "uniqueID": 974393,
                     "ioValues": [
                         {
@@ -668,14 +676,6 @@
                             "ioValue": -17.5
                         }
                     ]
-                },
-                {
-                    "atomType": "Molecule",
-                    "name": "Bump Around Shaft",
-                    "x": 0.6346998535871157,
-                    "y": 0.4367816091954023,
-                    "uniqueID": 994724,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Rectangle",
@@ -695,10 +695,19 @@
                     ]
                 },
                 {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 0.5300146412884335,
+                    "y": 0.6091954022988505,
+                    "uniqueID": 456330,
+                    "ioValues": [],
+                    "selectedColorIndex": "10"
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Mounting Holes",
-                    "x": 0.7679355783308931,
-                    "y": 0.24521072796934865,
+                    "x": 0.7657393850658858,
+                    "y": 0.2720306513409962,
                     "uniqueID": 277402,
                     "ioValues": []
                 },
@@ -716,33 +725,10 @@
                     ]
                 },
                 {
-                    "atomType": "Color",
-                    "name": "Color",
-                    "x": 0.5929721815519766,
-                    "y": 0.6130268199233716,
-                    "uniqueID": 456330,
-                    "ioValues": [],
-                    "selectedColorIndex": "10"
-                },
-                {
-                    "atomType": "GitHubMolecule",
-                    "name": "Voxels",
-                    "x": 0.8894582723279649,
-                    "y": 0.3448275862068966,
-                    "uniqueID": 636598,
-                    "projectID": "242066537",
-                    "ioValues": [
-                        {
-                            "name": "Geometry",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 0.8308931185944364,
-                    "y": 0.5555555555555556,
+                    "x": 0.7159590043923865,
+                    "y": 0.4674329501915709,
                     "uniqueID": 676208,
                     "ioValues": [
                         {
@@ -751,10 +737,6 @@
                         },
                         {
                             "name": "3D shape 569273",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 246783",
                             "ioValue": 10
                         },
                         {
@@ -769,10 +751,19 @@
                     "removeCutawayGeometry": true
                 },
                 {
+                    "atomType": "GitHubMolecule",
+                    "name": "Voxels",
+                    "x": 0.8931185944363104,
+                    "y": 0.31800766283524906,
+                    "uniqueID": 636598,
+                    "projectID": "242066537",
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.7371888726207907,
-                    "y": 0.7739463601532567,
+                    "x": 0.6010248901903367,
+                    "y": 0.7624521072796935,
                     "uniqueID": 698912,
                     "ioValues": [
                         {
@@ -849,6 +840,13 @@
                     "ap2ID": 745792
                 },
                 {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 835084",
+                    "ap2Primary": false,
+                    "ap1ID": 994724,
+                    "ap2ID": 676208
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -863,13 +861,6 @@
                     "ap2ID": 676208
                 },
                 {
-                    "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 835084",
-                    "ap2Primary": false,
-                    "ap1ID": 994724,
-                    "ap2ID": 676208
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
@@ -877,11 +868,18 @@
                     "ap2ID": 755749
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 773942",
+                    "ap2Primary": false,
+                    "ap1ID": 456330,
+                    "ap2ID": 676208
+                },
+                {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 246783",
+                    "ap2Name": "Geometry",
                     "ap2Primary": false,
                     "ap1ID": 277402,
-                    "ap2ID": 676208
+                    "ap2ID": 636598
                 },
                 {
                     "ap1Name": "geometry",
@@ -889,13 +887,6 @@
                     "ap2Primary": true,
                     "ap1ID": 755749,
                     "ap2ID": 698912
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 773942",
-                    "ap2Primary": false,
-                    "ap1ID": 456330,
-                    "ap2ID": 676208
                 },
                 {
                     "ap1Name": "geometry",
