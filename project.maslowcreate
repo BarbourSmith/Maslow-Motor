@@ -3,72 +3,26 @@
         {
             "atomType": "Molecule",
             "name": "Bump Around Shaft",
-            "x": 0.5241581259150805,
-            "y": 0.3984674329501916,
+            "x": 0.5263543191800879,
+            "y": 0.35249042145593873,
             "uniqueID": 994724,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 0.9853587115666179,
-                    "y": 0.5,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Readme",
                     "name": "README",
-                    "x": 136,
-                    "y": 119,
+                    "x": 0.21595900439238652,
+                    "y": 0.24521072796934865,
                     "uniqueID": 649016,
                     "ioValues": [],
                     "readmeText": "The radius of this is not displayed on the diagram, and is estimated. It should be checked."
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 173,
-                    "y": 183,
-                    "uniqueID": 871875,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 21
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 345,
-                    "y": 111,
-                    "uniqueID": 594397,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 347,
-                    "y": 225,
-                    "uniqueID": 837350,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 4
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 490,
-                    "y": 105,
+                    "x": 0.3601756954612006,
+                    "y": 0.27586206896551724,
                     "uniqueID": 135125,
                     "ioValues": [
                         {
@@ -86,10 +40,67 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 0.10248901903367495,
+                    "y": 0.5670498084291188,
+                    "uniqueID": 871875,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 21
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.24743777452415813,
+                    "y": 0.5363984674329502,
+                    "uniqueID": 594397,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 0.5629575402635432,
+                    "y": 0.4636015325670498,
+                    "uniqueID": 914886,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 716176",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 782491",
+                            "ioValue": 10
+                        }
+                    ],
+                    "removeCutawayGeometry": true
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 0.24890190336749635,
+                    "y": 0.8314176245210728,
+                    "uniqueID": 837350,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 4
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 503,
-                    "y": 238,
+                    "x": 0.3462664714494876,
+                    "y": 0.8275862068965518,
                     "uniqueID": 297144,
                     "ioValues": [
                         {
@@ -107,25 +118,21 @@
                     ]
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 647,
-                    "y": 143,
-                    "uniqueID": 914886,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 716176",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 782491",
-                            "ioValue": 10
-                        }
-                    ],
-                    "removeCutawayGeometry": true
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 0.9853587115666179,
+                    "y": 0.5,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 782491",
+                    "ap2Primary": false,
+                    "ap1ID": 135125,
+                    "ap2ID": 914886
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
@@ -149,6 +156,12 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap2Primary": false,
+                    "ap1ID": 914886
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 837350,
@@ -156,23 +169,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 782491",
-                    "ap2Primary": false,
-                    "ap1ID": 135125,
-                    "ap2ID": 914886
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 716176",
                     "ap2Primary": false,
                     "ap1ID": 297144,
                     "ap2ID": 914886
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap2Primary": false,
-                    "ap1ID": 914886
                 }
             ],
             "fileTypeVersion": 1
@@ -539,7 +539,7 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.04612005856515373,
+                    "x": 0.038799414348462666,
                     "y": 0.24904214559386972,
                     "uniqueID": 235049,
                     "ioValues": [
@@ -561,8 +561,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.11932650073206441,
-                    "y": 0.24904214559386972,
+                    "x": 0.16325036603221083,
+                    "y": 0.24521072796934865,
                     "uniqueID": 214402,
                     "ioValues": [
                         {
@@ -574,8 +574,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 0.2759882869692533,
-                    "y": 0.12260536398467432,
+                    "x": 0.3089311859443631,
+                    "y": 0.12643678160919541,
                     "uniqueID": 213037,
                     "ioValues": [
                         {
@@ -596,8 +596,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 0.48609077598828704,
-                    "y": 0.14559386973180077,
+                    "x": 0.48682284040995605,
+                    "y": 0.1685823754789272,
                     "uniqueID": 605960,
                     "ioValues": [
                         {
@@ -609,8 +609,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 0.2562225475841874,
-                    "y": 0.5095785440613027,
+                    "x": 0.24963396778916544,
+                    "y": 0.48659003831417624,
                     "uniqueID": 746012,
                     "ioValues": [
                         {
@@ -630,37 +630,16 @@
                 {
                     "atomType": "Molecule",
                     "name": "Bump Around Shaft",
-                    "x": 0.5241581259150805,
-                    "y": 0.3984674329501916,
+                    "x": 0.5263543191800879,
+                    "y": 0.35249042145593873,
                     "uniqueID": 994724,
                     "ioValues": []
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.4260614934114202,
-                    "y": 0.5134099616858238,
-                    "uniqueID": 745792,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 37.9
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 18.5
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 0.643484626647145,
-                    "y": 0.19157088122605365,
+                    "x": 0.6449487554904832,
+                    "y": 0.19540229885057472,
                     "uniqueID": 974393,
                     "ioValues": [
                         {
@@ -674,6 +653,27 @@
                         {
                             "name": "zDist",
                             "ioValue": -17.5
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 0.42093704245973645,
+                    "y": 0.5363984674329502,
+                    "uniqueID": 745792,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 37.9
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 18.5
                         }
                     ]
                 },
@@ -705,8 +705,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 0.5300146412884335,
-                    "y": 0.6091954022988505,
+                    "x": 0.5351390922401171,
+                    "y": 0.6053639846743295,
                     "uniqueID": 456330,
                     "ioValues": [],
                     "selectedColorIndex": "10"
@@ -757,8 +757,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 0.6010248901903367,
-                    "y": 0.7624521072796935,
+                    "x": 0.6024890190336749,
+                    "y": 0.7547892720306513,
                     "uniqueID": 698912,
                     "ioValues": [
                         {
@@ -774,6 +774,15 @@
                             "ioValue": 2
                         }
                     ]
+                },
+                {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.4546120058565154,
+                    "y": 0.9080459770114941,
+                    "uniqueID": 413448,
+                    "ioValues": [],
+                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(input){\n  return motor();\n}\n\n\nfunction motor(){\n\tconst block = myTranslate(myExtrude(myRectangle(58.1,40.1), 27), 8.85, 0, 2);\n    const barrel = myColor(myTranslate(myRotate(myExtrude(myCircle(37.8), 75), 0, 90, 0), 37.9, 0, 18.5), \"silver\");\n    const shaft = myTranslate(myExtrude(myCircle(8), 17.5), 0, 0, -17.5);\n    return shaft;\n}\n\nfunction cutAways(){\n    const shape1 = myTranslate(myCircle(60), 60/2,60/2,0);\n    const shape2 = myTranslate(myRectangle(10,10), 300, 5, 0);\n    const shape3 = myTranslate(myRectangle(10,10), 5, 300, 0);\n    \n    const oneWing = shrinkWrap([shape1, shape2, shape3]);\n    const wing1 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 90);\n    const wing2 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 180);\n    const wing3 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 270);\n    const centerCircle = myCircle(69.5);\n    const slice = myRotate(myTranslate(myRectangle(500,4), 250, 0, 0), 0, 0, 45);\n    \n    return myAssemble([wing1, wing2, wing3, centerCircle, slice]);\n}\n\n\nfunction blank(){\n\treturn myTag(myExtrude(myDifference( myCircle(285), cutAways()),10), \"Plate\");\n}\n\nfunction template(){\n    return myAssemble([blank(), fullLatch()]);\n}\n\nfunction bolt(){\n    const shaft = myTranslate(myExtrude(myCircle(4), 20), 0, 0, -20);\n    const head  = myExtrude(myCircle(7.6), 2.2);\n\treturn myColor(myAssemble([shaft, head]), \"black\");\n}\n\nfunction bolts(){\n\tconst bolt1 = myTranslate(bolt(), -22, -3.968, 2);\n    const bolt2 = myTranslate(bolt(), -22, 3.968, 2);\n    const bolt3 = myTranslate(bolt(), 22, 7.14, 2);\n    const bolt4 = myTranslate(bolt(), 22, -7.14, 2);\n    return myAssemble([bolt1, bolt2, bolt4, bolt3]);\n}\n\nfunction latchBlock(){\n    const block = myColor(myExtrude(myRectangle(69.85, 30.16), 11.11), \"silver\");\n    const withBOM = myBOMTag(block, \"{\\\"BOMitemName\\\":\\\"Tight Hold Latch\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":3.81,\\\"source\\\":\\\"https://www.mcmaster.com/1794A41\\\",\\\"totalNeeded\\\":1}\")\n    return withBOM;\n}\n\nfunction fullLatch(){\n    return myTranslate(myRotate(myAssemble([bolts(), latchBlock()]), 0,0,-45), 80, 80, 10);\n}\n\nfunction myCircle(diameter){\n\t\n    const circumference  = 3.14*diameter;\n    const numberOfSegments = Math.min(Math.max(parseInt( circumference / 4.6 ),5), 100)\n\t\n    return Circle.ofDiameter(diameter, {sides: numberOfSegments});\n}\n\nfunction myRectangle(x, y){\n\treturn Square(x, y);\n}\n\nfunction myTranslate(inputShape, x, y, z){\n\treturn inputShape.move(x,y,z);\n}\n\nfunction myExtrude(shape, distance){\n\treturn shape.extrude(distance);\n}\n\nfunction shrinkWrap(values){\n\treturn Hull(...values);\n}\n\nfunction myRotate(shape, x, y, z){\n\treturn shape.rotateX(x).rotateY(y).rotateZ(z);\n}\n\nfunction myAssemble(shapes){\n\treturn Assembly(...shapes)\n}\n\nfunction myDifference(shape1, shape2){\n    return shape1.cut(shape2).kept();\n}\n\nfunction myTag(shape, tag){\n    return shape.as(tag);\n}\n\nfunction myColor(shape, tag){\n    return shape.color(tag);\n}\n\nfunction myBOMTag(shape, tag){\n    return shape.Item(tag);\n}\n\nreturn main(input)"
                 },
                 {
                     "atomType": "Output",
@@ -796,6 +805,15 @@
                         "source": "http://www.etonm.com/",
                         "totalNeeded": 0
                     }
+                },
+                {
+                    "atomType": "Code",
+                    "name": "Code",
+                    "x": 0.7562225475841875,
+                    "y": 0.8888888888888888,
+                    "uniqueID": 444953,
+                    "ioValues": [],
+                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  if(JSON.stringify(Input1)!= JSON.stringify(Input2)){\n      console.log(\"not equal\");\n      throw \"Not equal\";\n  }\n  else{\n      console.log(\"Equal!\");\n  }\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
                 }
             ],
             "allConnectors": [
@@ -842,11 +860,11 @@
                     "ap2ID": 205290
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap2Primary": true,
-                    "ap1ID": 745792,
-                    "ap2ID": 456330
+                    "ap1Name": "Geometry",
+                    "ap2Name": "Input2",
+                    "ap2Primary": false,
+                    "ap1ID": 994724,
+                    "ap2ID": 444953
                 },
                 {
                     "ap1Name": "geometry",
@@ -854,6 +872,13 @@
                     "ap2Primary": false,
                     "ap1ID": 974393,
                     "ap2ID": 205290
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap2Primary": true,
+                    "ap1ID": 745792,
+                    "ap2ID": 456330
                 },
                 {
                     "ap1Name": "Geometry",
@@ -899,6 +924,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "Input1",
+                    "ap2Primary": false,
+                    "ap1ID": 413448,
+                    "ap2ID": 444953
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
                     "ap1ID": 179344
@@ -907,5 +939,5 @@
             "fileTypeVersion": 1
         }
     ],
-    "circleSegmentSize": 1
+    "circleSegmentSize": "4.6"
 }
