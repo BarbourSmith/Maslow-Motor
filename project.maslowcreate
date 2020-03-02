@@ -717,6 +717,21 @@
                     ]
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 0.835285505124451,
+                    "y": 0.2681992337164751,
+                    "uniqueID": 179344,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "ET-WGM58AE",
+                        "numberNeeded": 1,
+                        "costUSD": 11,
+                        "source": "http://www.etonm.com/",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 0.766471449487555,
@@ -770,11 +785,11 @@
                 {
                     "atomType": "Code",
                     "name": "Code",
-                    "x": 0.47291361639824303,
-                    "y": 0.8850574712643677,
-                    "uniqueID": 413448,
+                    "x": 0.8587115666178624,
+                    "y": 0.5555555555555556,
+                    "uniqueID": 444953,
                     "ioValues": [],
-                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(input){\n  return motor();\n}\n\n\nfunction motor(){\n\tconst block = myTranslate(myExtrude(myRectangle(58.1,40.1), 27), 8.85, 0, 2);\n    const barrel = myColor(myTranslate(myRotate(myExtrude(myCircle(37.8), 75), 0, 90, 0), 37.9, 0, 18.5), \"silver\");\n    const shaft = myTranslate(myExtrude(myCircle(8), 17.5), 0, 0, -17.5);\n    const lowerBump  = myTranslate(myExtrude(myCircle(21), 4), 0, 0, -2);\n    const upperBump = myTranslate(myExtrude(myCircle(21), 2), 0, 0, 29);\n    const bumps = myAssemble([lowerBump, upperBump]);\n    const boltHole = myDifference(myCircle(8), myCircle(4));\n    const lowerBoltHoles = myExtrude(myAssemble([myTranslate(boltHole, -11.5, 14, 0), myTranslate(boltHole, -11.5, -14, 0), myTranslate(boltHole, 28.85, 14, 0), myTranslate(boltHole, 28.85, -14, 0)]), 2);\n    const upperBoltHoles = myTranslate(myExtrude(myAssemble([myTranslate(boltHole, -11.5, 14, 0), myTranslate(boltHole, -11.5, -14, 0), myTranslate(boltHole, 28.85, 14, 0), myTranslate(boltHole, 28.85, -14, 0)]), 2), 0, 0, 29);\n    const boltHoles = myAssemble([lowerBoltHoles, upperBoltHoles]);\n    const motor = myAssemble([boltHoles, block, barrel, bumps, shaft]);\n    return motor;\n}\n\nfunction cutAways(){\n    const shape1 = myTranslate(myCircle(60), 60/2,60/2,0);\n    const shape2 = myTranslate(myRectangle(10,10), 300, 5, 0);\n    const shape3 = myTranslate(myRectangle(10,10), 5, 300, 0);\n    \n    const oneWing = shrinkWrap([shape1, shape2, shape3]);\n    const wing1 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 90);\n    const wing2 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 180);\n    const wing3 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 270);\n    const centerCircle = myCircle(69.5);\n    const slice = myRotate(myTranslate(myRectangle(500,4), 250, 0, 0), 0, 0, 45);\n    \n    return myAssemble([wing1, wing2, wing3, centerCircle, slice]);\n}\n\n\nfunction blank(){\n\treturn myTag(myExtrude(myDifference( myCircle(285), cutAways()),10), \"Plate\");\n}\n\nfunction template(){\n    return myAssemble([blank(), fullLatch()]);\n}\n\nfunction bolt(){\n    const shaft = myTranslate(myExtrude(myCircle(4), 20), 0, 0, -20);\n    const head  = myExtrude(myCircle(7.6), 2.2);\n\treturn myColor(myAssemble([shaft, head]), \"black\");\n}\n\nfunction bolts(){\n\tconst bolt1 = myTranslate(bolt(), -22, -3.968, 2);\n    const bolt2 = myTranslate(bolt(), -22, 3.968, 2);\n    const bolt3 = myTranslate(bolt(), 22, 7.14, 2);\n    const bolt4 = myTranslate(bolt(), 22, -7.14, 2);\n    return myAssemble([bolt1, bolt2, bolt4, bolt3]);\n}\n\nfunction latchBlock(){\n    const block = myColor(myExtrude(myRectangle(69.85, 30.16), 11.11), \"silver\");\n    const withBOM = myBOMTag(block, \"{\\\"BOMitemName\\\":\\\"Tight Hold Latch\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":3.81,\\\"source\\\":\\\"https://www.mcmaster.com/1794A41\\\",\\\"totalNeeded\\\":1}\")\n    return withBOM;\n}\n\nfunction fullLatch(){\n    return myTranslate(myRotate(myAssemble([bolts(), latchBlock()]), 0,0,-45), 80, 80, 10);\n}\n\nfunction myCircle(diameter){\n\t\n    const circumference  = 3.14*diameter;\n    const numberOfSegments = Math.min(Math.max(parseInt( circumference / 4.6 ),5), 100)\n\t\n    return Circle.ofDiameter(diameter, {sides: numberOfSegments});\n}\n\nfunction myRectangle(x, y){\n\treturn Square(x, y);\n}\n\nfunction myTranslate(inputShape, x, y, z){\n\treturn inputShape.move(x,y,z);\n}\n\nfunction myExtrude(shape, distance){\n\treturn shape.extrude(distance);\n}\n\nfunction shrinkWrap(values){\n\treturn Hull(...values);\n}\n\nfunction myRotate(shape, x, y, z){\n\treturn shape.rotateX(x).rotateY(y).rotateZ(z);\n}\n\nfunction myAssemble(shapes){\n\treturn Assembly(...shapes)\n}\n\nfunction myDifference(shape1, shape2){\n    return shape1.cut(shape2).kept();\n}\n\nfunction myTag(shape, tag){\n    return shape.as(tag);\n}\n\nfunction myColor(shape, tag){\n    return shape.color(tag);\n}\n\nfunction myBOMTag(shape, tag){\n    return shape.Item(tag);\n}\n\nreturn main(input)"
+                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  if(JSON.stringify(Input1)!= JSON.stringify(Input2)){\n      console.log(\"not equal\");\n      throw \"Not equal\";\n  }\n  else{\n      console.log(\"Equal!\");\n  }\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
                 },
                 {
                     "atomType": "Molecule",
@@ -792,28 +807,13 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Add BOM Tag",
-                    "name": "Add BOM Tag",
-                    "x": 0.9143484626647145,
-                    "y": 0.681992337164751,
-                    "uniqueID": 179344,
-                    "ioValues": [],
-                    "BOMitem": {
-                        "BOMitemName": "ET-WGM58AE",
-                        "numberNeeded": 1,
-                        "costUSD": 11,
-                        "source": "http://www.etonm.com/",
-                        "totalNeeded": 0
-                    }
-                },
-                {
                     "atomType": "Code",
                     "name": "Code",
-                    "x": 0.9026354319180089,
-                    "y": 0.8697318007662835,
-                    "uniqueID": 444953,
+                    "x": 0.8045387994143485,
+                    "y": 0.8352490421455938,
+                    "uniqueID": 413448,
                     "ioValues": [],
-                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(Input1, Input2){\n  if(JSON.stringify(Input1)!= JSON.stringify(Input2)){\n      console.log(\"not equal\");\n      throw \"Not equal\";\n  }\n  else{\n      console.log(\"Equal!\");\n  }\n  return Sphere(40)        //return must be geometry;\n}\n\nreturn main(Input1, Input2)"
+                    "code": "//You can learn more about all of the available methods at https://jsxcad.js.org/app/UserGuide.html \n\n\nfunction main(input){\n  return motor();\n}\n\n\nfunction motor(){\n\tconst block = myTranslate(myExtrude(myRectangle(58.1,40.1), 27), 8.85, 0, 2);\n    const barrel = myColor(myTranslate(myRotate(myExtrude(myCircle(37.8), 75), 0, 90, 0), 37.9, 0, 18.5), \"silver\");\n    const shaft = myTranslate(myExtrude(myCircle(8), 17.5), 0, 0, -17.5);\n    const lowerBump  = myTranslate(myExtrude(myCircle(21), 4), 0, 0, -2);\n    const upperBump = myTranslate(myExtrude(myCircle(21), 2), 0, 0, 29);\n    const bumps = myAssemble([lowerBump, upperBump]);\n    const boltHole = myDifference(myCircle(8), myCircle(4));\n    const lowerBoltHoles = myExtrude(myAssemble([myTranslate(boltHole, -11.5, 14, 0), myTranslate(boltHole, -11.5, -14, 0), myTranslate(boltHole, 28.85, 14, 0), myTranslate(boltHole, 28.85, -14, 0)]), 2);\n    const upperBoltHoles = myTranslate(myExtrude(myAssemble([myTranslate(boltHole, -11.5, 14, 0), myTranslate(boltHole, -11.5, -14, 0), myTranslate(boltHole, 28.85, 14, 0), myTranslate(boltHole, 28.85, -14, 0)]), 2), 0, 0, 29);\n    const boltHoles = myAssemble([lowerBoltHoles, upperBoltHoles]);\n    const motor = myBOMTag(myAssemble([boltHoles, block, barrel, bumps, shaft]), \"{\\\"BOMitemName\\\":\\\"ET-WGM58AE\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":11,\\\"source\\\":\\\"http://www.etonm.com/\\\",\\\"totalNeeded\\\":0}\");\n    return motor;\n}\n\nfunction cutAways(){\n    const shape1 = myTranslate(myCircle(60), 60/2,60/2,0);\n    const shape2 = myTranslate(myRectangle(10,10), 300, 5, 0);\n    const shape3 = myTranslate(myRectangle(10,10), 5, 300, 0);\n    \n    const oneWing = shrinkWrap([shape1, shape2, shape3]);\n    const wing1 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 90);\n    const wing2 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 180);\n    const wing3 = myRotate(myTranslate(oneWing, 40, 40, 0), 0, 0, 270);\n    const centerCircle = myCircle(69.5);\n    const slice = myRotate(myTranslate(myRectangle(500,4), 250, 0, 0), 0, 0, 45);\n    \n    return myAssemble([wing1, wing2, wing3, centerCircle, slice]);\n}\n\n\nfunction blank(){\n\treturn myTag(myExtrude(myDifference( myCircle(285), cutAways()),10), \"Plate\");\n}\n\nfunction template(){\n    return myAssemble([blank(), fullLatch()]);\n}\n\nfunction bolt(){\n    const shaft = myTranslate(myExtrude(myCircle(4), 20), 0, 0, -20);\n    const head  = myExtrude(myCircle(7.6), 2.2);\n\treturn myColor(myAssemble([shaft, head]), \"black\");\n}\n\nfunction bolts(){\n\tconst bolt1 = myTranslate(bolt(), -22, -3.968, 2);\n    const bolt2 = myTranslate(bolt(), -22, 3.968, 2);\n    const bolt3 = myTranslate(bolt(), 22, 7.14, 2);\n    const bolt4 = myTranslate(bolt(), 22, -7.14, 2);\n    return myAssemble([bolt1, bolt2, bolt4, bolt3]);\n}\n\nfunction latchBlock(){\n    const block = myColor(myExtrude(myRectangle(69.85, 30.16), 11.11), \"silver\");\n    const withBOM = myBOMTag(block, \"{\\\"BOMitemName\\\":\\\"Tight Hold Latch\\\",\\\"numberNeeded\\\":1,\\\"costUSD\\\":3.81,\\\"source\\\":\\\"https://www.mcmaster.com/1794A41\\\",\\\"totalNeeded\\\":1}\")\n    return withBOM;\n}\n\nfunction fullLatch(){\n    return myTranslate(myRotate(myAssemble([bolts(), latchBlock()]), 0,0,-45), 80, 80, 10);\n}\n\nfunction myCircle(diameter){\n\t\n    const circumference  = 3.14*diameter;\n    const numberOfSegments = Math.min(Math.max(parseInt( circumference / 4.6 ),5), 100)\n\t\n    return Circle.ofDiameter(diameter, {sides: numberOfSegments});\n}\n\nfunction myRectangle(x, y){\n\treturn Square(x, y);\n}\n\nfunction myTranslate(inputShape, x, y, z){\n\treturn inputShape.move(x,y,z);\n}\n\nfunction myExtrude(shape, distance){\n\treturn shape.extrude(distance);\n}\n\nfunction shrinkWrap(values){\n\treturn Hull(...values);\n}\n\nfunction myRotate(shape, x, y, z){\n\treturn shape.rotateX(x).rotateY(y).rotateZ(z);\n}\n\nfunction myAssemble(shapes){\n\treturn Assembly(...shapes)\n}\n\nfunction myDifference(shape1, shape2){\n    return shape1.cut(shape2).kept();\n}\n\nfunction myTag(shape, tag){\n    return shape.as(tag);\n}\n\nfunction myColor(shape, tag){\n    return shape.color(tag);\n}\n\nfunction myBOMTag(shape, tag){\n    return shape.Item(tag);\n}\n\nreturn main(input)"
                 }
             ],
             "allConnectors": [
@@ -896,6 +896,13 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "Input2",
+                    "ap2Primary": false,
+                    "ap1ID": 179344,
+                    "ap2ID": 444953
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap2Primary": true,
                     "ap1ID": 205290,
@@ -903,24 +910,10 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "Input2",
-                    "ap2Primary": false,
-                    "ap1ID": 205290,
-                    "ap2ID": 444953
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 3",
                     "ap2Primary": false,
                     "ap1ID": 698912,
                     "ap2ID": 205290
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "Input1",
-                    "ap2Primary": false,
-                    "ap1ID": 413448,
-                    "ap2ID": 444953
                 },
                 {
                     "ap1Name": "Geometry",
@@ -931,9 +924,16 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "Input1",
+                    "ap2Primary": false,
+                    "ap1ID": 413448,
+                    "ap2ID": 444953
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap2Primary": false,
-                    "ap1ID": 179344
+                    "ap1ID": 413448
                 }
             ],
             "fileTypeVersion": 1
